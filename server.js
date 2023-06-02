@@ -8,7 +8,7 @@ app.use(morgan(":method :url :status :res[content-length] - :response-time ms"))
 
 // https://gist.githubusercontent.com/meech-ward/1723b2df87eae8bb6382828fba649d64/raw/ee52637cc953df669d95bb4ab68ac2ad1a96cd9f/lotr.sql
 const pool = new Pool({
-  host: 'postgress.cjhrqy0ejiqm.us-east-1.rds.amazonaws.com',
+  host: 'terraform-20230602101730172600000003.cjhrqy0ejiqm.us-east-1.rds.amazonaws.com',
   user: 'postgress',
   port: 5432,
   password: 'postgress',
